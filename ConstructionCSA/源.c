@@ -5,7 +5,7 @@
 char* buff;
 char* start_point;
 int size;
-char* get_gi(char* p, int n) {
+char* get_gi(char* p, int n) { 
 	static char* m, * t;
 	m = (char*)malloc(n);
 	t = (char*)malloc(n);
